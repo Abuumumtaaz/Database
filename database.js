@@ -1,7 +1,7 @@
 const list = document.querySelector('ul');
 const form = document.querySelector('form');
 const button = document.querySelector('button');
-
+ 
 const addRecipe = (MyApp, id) => {
   let time = MyApp.created_at.toDate();
   let html = `
@@ -43,7 +43,7 @@ form.addEventListener('submit', e => {
   e.preventDefault();
 
   const now = new Date();
-  const newItem= {
+  const newItem = {
     tittle: form.recipe.value,
     created_at: firebase.firestore.Timestamp.fromDate(now)
   };
