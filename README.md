@@ -1,1 +1,1 @@
-## My firebase traning
+## firebase traning
