@@ -1,1 +1,1 @@
-## firebase traning with NOSQL
+## firebase traning with NoSQL
